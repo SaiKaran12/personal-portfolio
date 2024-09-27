@@ -1,0 +1,166 @@
+@media only screen and (max-width:768px){
+  
+
+.project{
+  width:95%;
+  height: auto;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p1{
+  width:96%;
+  height:190px;
+  background-color: #333333;
+  border:2px solid #aaaaaa;
+  border-radius: 8px 8px;
+  padding-top: 1.5px;
+  margin:0%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.pphoto{
+  width:46%;
+  height:170px;
+  background-color: white;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+  background-size: cover;
+}
+.pdata{
+  width:46%;
+  height:170px;
+  background-color: transparent;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+}
+  .pname{
+  width:95%;
+  height:auto;
+  background-color: none;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+}
+  .plink{
+  width:70%;
+  height:25px;
+  background-color: red;
+  border-radius: 8px 8px;
+  margin: 2%;
+    left: 0%;
+  position: relative;
+}
+  .pl{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+  .pdesc{
+  width:95%;
+  height:75px;
+  background-color: none;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+    color: #bbbbbb;
+    display: flex;
+    justify-content: center;
+    
+}
+}
+
+@media only screen and (min-width:768px){
+  .project{
+  width:95%;
+  height: auto;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p1{
+  width:46%;
+  height:190px;
+  background-color: #333333;
+  border:2px solid #aaaaaa;
+  border-radius: 8px 8px;
+  padding-top: 1.5px;
+  margin:1.5%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.pphoto{
+  width:46%;
+  height:170px;
+  background-color: white;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+  background-size: cover;
+}
+.pdata{
+  width:46%;
+  height:170px;
+  background-color: transparent;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+}
+  .pname{
+  width:95%;
+  height:auto;
+  background-color: none;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+}
+  .plink{
+  width:70%;
+  height:25px;
+  background-color: red;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+}
+  .pl{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+  .pdesc{
+  width:95%;
+  height:75px;
+  background-color: none;
+  border-radius: 8px 8px;
+  margin: 2%;
+  position: relative;
+        color: #bbbbbb;
+    display: flex;
+    justify-content: center;
+}
+}
+

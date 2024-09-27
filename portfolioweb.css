@@ -1,0 +1,550 @@
+body{
+  background-color: black;
+  margin:0%;
+  padding: 0%;
+}
+.nav{
+  padding-top: 3px;
+  margin-top: 5px;
+  height:22px;
+  width:100%;
+  background-color: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.empty{
+  width:22.5%;
+  height: 100%;
+  background-color: none;
+  color:white;
+  display: flex;
+}
+.emp{
+  padding: 0%;
+  margin: 0%;
+  position: absolute;
+  top:7px;
+}
+
+.home1{
+  width:17.5%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.home{
+  width:17.5%;
+  height: 100%;
+  background-color: none;
+}
+.homenav{
+  color: red;
+}
+.project{
+  width:22%;
+  height: 100%;
+  background-color: none;
+}
+.projectnav{
+  color: red;
+}
+.project1{
+  width:22%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.about{
+  width:18%;
+  height: 100%;
+  background-color: none;
+}
+.aboutnav{
+  color: red;
+}
+.about1{
+  width:18%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.contact{
+  width:20%;
+  height: 100%;
+  background-color: none;
+}
+.contactnav{
+  color: red;
+}
+.contact1{
+  width:20%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+
+.port{
+  width:96%;
+  height:750px;
+  background-color: transparent;
+  position: absolute;
+  left:2%;
+}
+.image{
+  width:180px;
+  height:180px;
+  position: absolute;
+  left:25%;
+  top:20px;
+  background-image: url("profilephoto.png");
+  background-size: cover;
+}
+.dat{
+  width:88%;
+  height:150px;
+  top:230px;
+  background-color: transparent;
+  position: absolute;
+  left:6.5%;
+}
+  .profilename{
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }
+  .profileoccupation{
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+    color: red;
+  }
+  .profileabout{
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }
+  
+  .profilebtn{
+    height:45px;
+    width:100%;
+    background-color: transparent;
+    color:white;
+    
+    position: relative;
+    left:0px;
+    top:10px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+
+
+
+  }
+  .profilecvbtn{
+    height:35px;
+    width:140px;
+    background-color: red;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 17.5px 17.5px;
+    border-top-left-radius: 17.5px 17.5px;
+    border-bottom-right-radius: 17.5px 17.5px;
+    border-top-right-radius: 17.5px 17.5px;
+    position: relative;
+    left:0px;
+    top:0px;
+    margin: 0%;
+    padding: 0%;
+
+
+
+  }
+   .profileaboutbtn{
+    height:35px;
+    width:140px;
+    background-color: red;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 17.5px 17.5px;
+    border-top-left-radius: 17.5px 17.5px;
+    border-bottom-right-radius: 17.5px 17.5px;
+    border-top-right-radius: 17.5px 17.5px;
+    position: relative;
+    left:40px;
+    top:0px;
+    margin: 0%;
+    padding: 0%;
+
+
+
+  }
+.aboutsec{
+  width:100%;
+  height:350px;
+  top:160px;
+  background-color: transparent;
+  position: absolute;
+  color: white;
+}
+.ath{
+  color: red;
+}
+.h1link{
+  color:white;
+  text-decoration: none;
+}
+.h2link{
+  color:white;
+  text-decoration: none;
+  right:0%;
+}
+
+
+.about6{
+  height:150px;
+  width:99%;
+  position: relative;
+  margin-bottom:1px;
+  margin-top:15px;
+  border:2px solid transparent;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 13px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.aaam{
+  background-color: transparent;
+  width:95%;
+  height:auto;
+  position: absolute;
+  top:775px;
+  left:2.5%;
+  
+}
+.about6p{
+  height:80px;
+  width:80px;
+  background-size: cover;
+  position: relative;
+  top:30px;
+  left:10px;
+}
+.about6b{
+  height:30px;
+  width:200px;
+  background-color: red;
+  position: relative;
+  top: 20px;
+  left:135px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.about6n{
+  height:30px;
+  width:240px;
+  background-color: #444444;
+  position: relative;
+  top:15px;
+  left:15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.about6d{
+  height:60px;
+  width:240px;
+  background-color: #444444;
+  position: absolute;
+  top:50px;
+  left:95px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color:white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lll2{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+@media only screen and (min-width:768px){
+  .nav{
+  padding-top: 3px;
+  margin-top: 5px;
+  height:22px;
+  width:100%;
+  background-color: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.empty{
+  width:61.25%;
+  height: 100%;
+  background-color: none;
+  color:white;
+}
+  .emp{
+    position: absolute;
+  }
+.home1{
+  width:8.75%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.home{
+  width:8.75%;
+  height: 100%;
+  background-color: none;
+}
+.homenav{
+  color: red;
+}
+.project{
+  width:11%;
+  height: 100%;
+  background-color: none;
+}
+.projectnav{
+  color: red;
+}
+.project1{
+  width: 11%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.about{
+  width: 9%;
+  height: 100%;
+  background-color: none;
+}
+.aboutnav{
+  color: red;
+}
+.about1{
+  width:9%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+.contact{
+  width:10%;
+  height: 100%;
+  background-color: none;
+}
+.contactnav{
+  color: red;
+}
+.contact1{
+  width:10%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+  .foot{
+    height: 10px;
+    width:100%;
+    background-color: red;
+    position: absolute;
+    top:538px;
+  }
+  .port{
+  width:90%;
+  height:500px;
+  background-color: transparent;
+  position: absolute;
+  left:5%;
+}
+  .image{
+  width:350px;
+  height:350px;
+  position: absolute;
+  left:5%;
+  top:30px;
+  background-image: url("profilephoto.png");
+  background-size: cover;
+  background-color: transparent; 
+}
+.dat{
+  width:430px;
+  height:200px;
+  top:130px;
+  background-color: transparent;
+  position: absolute;
+  left:47%;
+}
+  .profilename{
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }
+  .profileoccupation{
+    font-size: 25px;
+    padding: 0%;
+    margin: 0%;
+    color: red;
+  }
+  .profileabout{
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }
+  
+  .profilebtn{
+    height:35px;
+    width:100%;
+    background-color: transparent;
+    color:white;
+    
+    position: relative;
+    left:0px;
+    top:20px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+
+
+
+  }
+  .profilecvbtn{
+    height:35px;
+    width:140px;
+    background-color: red;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 17.5px 17.5px;
+    border-top-left-radius: 17.5px 17.5px;
+    border-bottom-right-radius: 17.5px 17.5px;
+    border-top-right-radius: 17.5px 17.5px;
+    position: relative;
+    left:0px;
+    top:0px;
+    margin: 0%;
+    padding: 0%;
+
+
+
+  }
+   .profileaboutbtn{
+    height:35px;
+    width:140px;
+    background-color: red;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 17.5px 17.5px;
+    border-top-left-radius: 17.5px 17.5px;
+    border-bottom-right-radius: 17.5px 17.5px;
+    border-top-right-radius: 17.5px 17.5px;
+    position: relative;
+    left:50px;
+    top:0px;
+    margin: 0%;
+    padding: 0%;
+
+
+
+  }
+  .aboutsec{
+    display: none;
+  }
+  .aaam{
+  background-color: transparent;
+  width:96%;
+    top:400px;
+  height:auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  .about6{
+  height:150px;
+  width:48%;
+  position: relative;
+  margin-bottom:1px;
+  margin-top:15px;
+  border:2px solid transparent;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 13px;
+  overflow: hidden;
+    margin-left: 1%;
+}
+  .data{
+  top:25px;
+}
+  .about6p{
+  height:80px;
+  width:80px;
+  background-size: cover;
+  position: relative;
+  top:30px;
+  left:10px;
+}
+.about6b{
+  height:30px;
+  width:250px;
+  background-color: red;
+  position: relative;
+  top: 20px;
+  left:130px;
+  border-radius: 15px;
+}
+.about6n{
+  height:30px;
+  width:290px;
+  background-color: #444444;
+  position: relative;
+  top:15px;
+  left:15px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.about6d{
+  height:60px;
+  width:290px;
+  background-color: #444444;
+  position: absolute;
+  top:50px;
+  left:95px;
+  color:white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}
