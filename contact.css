@@ -1,0 +1,192 @@
+.touch{
+  width:90%;
+  height:450px;
+  background-color: black;
+  position: relative;
+  border: 2px solid blue;
+  left:5%;
+  margin-top:15px;
+  border-radius: 28px 28px;
+  
+}
+.touch2{
+  width:85%;
+  height:46px;
+  background-color: transparent;
+  position: relative;
+  left:7.5%;
+  margin-top: 25px;
+  top:10px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 15px;
+  
+}
+.touch3{
+  width:90%;
+  height:400px;
+  background-color: black;
+  position: relative;
+  border:2px solid blue;
+  left:5%;
+  margin-top:45px;
+  border-radius: 28px 28px;
+  overflow: hidden;
+  font-size: 25px;
+  
+}
+
+.a{
+  height:100%;
+  width:46px;
+  background-color: white;
+  margin-left: 2.7%;
+  background-size: cover;
+  border-radius: 50%;
+}
+.aa{
+  margin-left:2.7%;
+}
+.gth{
+  width:95%;
+  height:40px;
+  background-color: transparent;
+  color:white;
+  font-size: 25px;
+  position: relative;
+  left:2.5%;
+  top:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gthh{
+  width:95%;
+  height:40px;
+  background-color: transparent;
+  color:white;
+  font-size: 15px;
+  position: relative;
+  left:2.5%;
+  top:10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.yname{
+  width:80%;
+  height:30px;
+  margin-bottom: 25px;
+  margin-top:20px;
+  border-radius: 5px 5px;
+  border:2px solid blue;
+  position: relative;
+  left:9%;
+  
+}
+.yemail{
+  width:80%;
+  height:30px;
+  margin-bottom: 25px;
+  border-radius: 5px 5px;
+  border:2px solid blue;
+  position: relative;
+  left:9%;
+  
+}
+.ymess{
+  width:80%;
+  height:130px;
+  margin-bottom: 25px;
+  border-radius: 5px 5px;
+  border:2px solid blue;
+  position: relative;
+  left:9%;
+  
+}
+.submit{
+  width:50%;
+  height:30px;
+  position: relative;
+  left:25%;
+  border-radius: 8px 8px;
+  font-size: 18px;
+  background-color: red;
+  color:white;
+  border:2px solid white;
+  top:25px;
+}
+
+
+
+
+
+@media only screen and (min-width:768px){
+  .touch{
+  width:30%;
+  height:500px;
+  background-color: transparent;
+    border:2px solid blue;
+  position: relative;
+    border-color: blue;
+  left:2.5%;
+  top:10px;
+}
+  .ymess{
+  width:80%;
+  height:200px;
+  margin-bottom: 25px;
+  border-radius: 5px 5px;
+  border:2px solid blue;
+  position: relative;
+  left:9%;
+  
+}
+  .touch2{
+  width:50%;
+  height:65px;
+  background-color: transparent;
+  position: absolute;
+  left:40%;
+  margin-top: 25px;
+  top:405px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 15px;
+  
+}
+
+.a{
+  height:100%;
+  width:65px;
+  background-color: transparent;
+  margin-left: 2.7%;
+  background-size: cover;
+}
+  .touch3{
+  width:50%;
+  height:300px;
+  background-color: black;
+  position: absolute;
+  border: 2px solid red;
+  left:40%;
+  margin-top:25px;
+  top:65px; 
+  border-radius: 28px 28px;
+  
+}
+  .gthh{
+  width:95%;
+  height:40px;
+  background-color: transparent;
+  color:white;
+  font-size: 25px;
+  position: relative;
+  left:2.5%;
+  top:10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+  
+}
